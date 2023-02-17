@@ -36,7 +36,7 @@ const Router =createBrowserRouter([
             },
             {
                 path: "/q5",
-                element: <Q2 />,
+                element: <Q5 />,
             },
             {
                 path: "/q6",
