@@ -24,6 +24,7 @@ const QuestionsList = (props) => {
       </Card>
       {props.items.map((question) => (
         <QuestinsItem
+          route={question.route}
           key={question.id}
           title={question.title}
           body={question.body}
