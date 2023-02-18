@@ -1,14 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
 import Guest from "./Views/Guest";
 import Default from "./Views/Default";
-import Q1 from "./Views/q1";
-import Q2 from "./Views/q2";
-import Q3 from "./Views/q3";
-import Q4 from "./Views/q4";
-import Q5 from "./Views/q5";
-import Q6 from "./Views/q6";
-import Q7 from "./Views/q7";
-import Q8 from "./Views/q8";
+import Q1 from "./Views/Q1";
+import Q2 from "./Views/Q2";
+import Q3 from "./Views/Q3";
+import Q4 from "./Views/Q4";
+import Q5 from "./Views/Q5";
+import Q6 from "./Views/Q6";
+import Q7 from "./Views/Q7";
+import Q8 from "./Views/Q8";
 import NotFound from "./Views/NotFound";
 const Router = createBrowserRouter([
   {
