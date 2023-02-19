@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>وام</title>
+</head>
+
+<body>
+    <h1>محاسبه انلاین اقساط وام بانکی</h1>
+    <form name="form">
+        <label>مبلغ وام ( تومان )</label><br>
+        <input id="p" type="text" placeholder="مثال: 20,000,000" autofocus>
+        <label>( % ) درصد سود سالیانه</label><br>
+        <input id="i" type="text" placeholder="مثال: 18">
+        <label>تعداد اقساط وام</label><br>
+        <input id="n" type="text" placeholder="مثال: 48">
+        <input type="button" value="محاسبه" onclick="Computing()"><br><br>
+        <label>مبلغ هر قسط</label><br>
+        <input id="result" type="text" placeholder="قسط به تومان">
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>

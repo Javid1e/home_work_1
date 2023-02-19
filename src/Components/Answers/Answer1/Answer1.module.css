@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.fal {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(248, 215, 218, 1);
+    color: rgb(138, 40, 49);
+    border-radius: 5px;
+}
+
+.button {
+    width: auto;
+    background-color: #f4511e;
+    border-radius: 10px;
+    text-align: center;
+}

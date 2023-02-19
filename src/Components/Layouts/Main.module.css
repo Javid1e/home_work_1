@@ -6,6 +6,16 @@
     max-width: 95%;
 }
 
+.answer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background-color: #4feb1f;
+    flex-direction: column;
+}
+
 .question-item {
     display: flex;
     justify-content: space-between;
@@ -26,16 +36,16 @@
     flex: 1;
 }
 
-.question-item h1 {
-    color: #3a3a3a;
+h1 {
+    color: #ffffff;
     font-size: 2rem;
     flex: 1;
     margin: 0 1rem;
     color: rgb(255, 255, 255);
 }
 
-.question-item h2 {
-    color: #3a3a3a;
+h2 {
+    color: #ffffff;
     font-size: 1rem;
     flex: 1;
     margin: 0 1rem;

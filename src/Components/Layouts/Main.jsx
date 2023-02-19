@@ -7,11 +7,19 @@ const Main = (props) => {
       <Card className={` ${props.className} ${styles["question-item"]}`}>
         <div
           className={` ${props.className} ${styles["question-item__description"]}`}
-        ></div>
-        <h1>{props.item.title}</h1>
-        <h2>{props.item.body}</h2>
+        >
+          <h1>{props.item.title}</h1>
+          <h2>{props.item.body}</h2>
+        </div>
       </Card>
-      <Card></Card>
+      <Card className={` ${props.className} ${styles["answer"]}`}>
+        <div
+          className={` ${props.className} ${styles["question-item__description"]}`}
+        >
+          <h1>پاسخ</h1>
+        </div>
+        {props.children}
+      </Card>
     </Card>
   );
 };
